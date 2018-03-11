@@ -8,36 +8,42 @@
   <meta name="description" content="Contact Aaron Kennedy">
   <meta name="author" content="Aaron Kennedy">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
   <header>
-    <h1>Aaron Kennedy</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
-    </nav>  
+    <div class="wrapper">
+      <h1>Aaron Kennedy</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>  
+    </div>
   </header>
   
   <section>
-    <h1>Contact</h1>
-    <form action="">
-        <label for="fname">First name:</label> <input type="text" name="fname"><br>
-        <label for="lname">Last name:</label> <input type="text" name="lname"><br>
-        <label for="message">Message:</label> <input type="text" name="message"><br>
-        <input type="submit" value="Submit">
-    </form>
-  
+    <div class="wrapper main">
+      <h2>Contact</h2>
+      <form action="">
+          <label for="fname">First name:</label> <input type="text" name="fname"><br>
+          <label for="lname">Last name:</label> <input type="text" name="lname"><br>
+          <label for="message">Message:</label> <input type="text" name="message"><br>
+          <input type="submit" value="Submit">
+      </form>
+    </div>
   </section>
 
-  <aside>
-    <a href="contact.html">Contact</a>
-    Copyright &copy;
-  </aside>
+  <footer>
+      <div class="wrapper footer">
+        <p>Copyright &copy;</p>
+      </div>
+    </footer>
+
   <script src="js/scripts.js"></script>
 </body>
 </html>
