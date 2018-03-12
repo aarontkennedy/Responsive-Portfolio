@@ -5,7 +5,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-color: #efeee7;
     background-image: url(../images/circles-light.png);
@@ -76,9 +76,11 @@ nav a:last-child::after {
     content: "";
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
 
 h2, h3, h4, h5, h6 {
-    font: 'Georgia', Times, Times New Roman, serif;
     background-color: white;
     color: #4aaaa5; 
 }
