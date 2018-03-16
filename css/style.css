@@ -152,7 +152,6 @@ textarea {
     position:relative;
     width:400px;
     height:300px;
-    background-color: pink;
     margin-bottom: .5em;
     margin-right: .5em;
     background-size: cover;
@@ -181,5 +180,9 @@ textarea {
 
 #webdev {
     background-image: url(../images/webdev.jpg);
+}
+
+#racing {
+    background-image: url(../images/pikespeak50.jpg);
 }
 
