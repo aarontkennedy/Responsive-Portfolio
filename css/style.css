@@ -93,6 +93,8 @@ nav a:last-child::after {
     content: "";
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -117,7 +119,7 @@ p {
 
 #bio-image {
     float: left;
-    width:250px;
+    width:100%;
     margin-right: 1em;
     margin-bottom: 1em;
 }
@@ -210,4 +212,48 @@ aside ul {
 
 aside ul li {
     display: inline-block;
+}
+
+
+@media only screen and (max-width: 768px)  {
+    #bio-image {
+        width:250px;    
+    }
+    .wrapper {
+        width:700px;
+    }
+    section {
+        width: 90%;
+        margin: 1em 0 0 1em;
+    }
+    aside {
+        width: 90%;
+        margin: 1em 0 1em 1em;
+    }
+}
+@media only screen and (max-width: 640px)  {
+    header h1 {
+        width: 100%;
+        text-align:center;
+    }
+    header nav {
+        width:100%;
+    }
+    #bio-image {
+        width:100%;    
+    }
+    #portfolioStuff li {
+        width:100%;
+    }
+    .wrapper {
+        width:500px;
+    } 
+    section {
+        width: 90%;
+        margin: 1em 0 0 1em;
+    }
+    aside {
+        width: 90%;
+        margin: 1em 0 1em 1em;
+    }
 }
