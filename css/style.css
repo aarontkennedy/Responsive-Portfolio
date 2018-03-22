@@ -68,12 +68,25 @@ header h1, header nav {
     padding: 1em;
 }
 
+/* The animation code */
+@keyframes headerBGColorAnimation {
+    0% {background-color: #4aaaa5;}
+    20% {background-color: #4a8caa;}
+    40% {background-color: #4a77aa;}
+    60% {background-color: #4aaa95;}
+    80% {background-color: #4aaa82;}
+    100% {background-color: #4aaaa5;}
+}
+
 header h1 {
     float: left;
     background-color: #4aaaa5;
     color: white; 
     font-size: 24px;
     font-weight: bolder;
+    animation-name: headerBGColorAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 header nav {
@@ -201,8 +214,18 @@ textarea {
     background-image: url(../images/pikespeak50.jpg);
 }
 
+/* The animation code */
+@keyframes bouncingIcons {
+    0% {width:50px;}
+    50% {width:55px;}
+    100% {width:50px;}
+}
+
 aside img {
     width:50px;
+    animation-name: bouncingIcons;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 aside ul {
@@ -213,6 +236,7 @@ aside ul {
 aside ul li {
     display: inline-block;
 }
+
 
 
 @media only screen and (max-width: 768px)  {
@@ -230,6 +254,11 @@ aside ul li {
         width: 90%;
         margin: 1em 0 1em 1em;
     }
+    #portfolioStuff li {
+        display:inline-block;  
+        width:280px;
+        height:210px;   
+    }
 }
 @media only screen and (max-width: 640px)  {
     header h1 {
@@ -244,7 +273,8 @@ aside ul li {
         width:100%;    
     }
     #portfolioStuff li {
-        width:100%;
+        width:400px;
+        height:300px;
     }
     .wrapper {
         width:500px;
@@ -258,3 +288,5 @@ aside ul li {
         margin: 1em 0 1em 1em;
     }
 }
+
+
