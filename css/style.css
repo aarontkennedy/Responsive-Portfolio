@@ -214,6 +214,10 @@ textarea {
     background-image: url(../images/pikespeak50.jpg);
 }
 
+#hangman {
+    background-image: url(../images/hangman.jpg);
+}
+
 /* The animation code */
 @keyframes bouncingIcons {
     0% {width:50px;}
