@@ -218,6 +218,10 @@ textarea {
     background-image: url(../images/hangman.jpg);
 }
 
+#starWars {
+    background-image: url(../images/starwars.png);
+}
+
 /* The animation code */
 @keyframes bouncingIcons {
     0% {width:50px;}
