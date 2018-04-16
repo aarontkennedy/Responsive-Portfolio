@@ -226,6 +226,10 @@ textarea {
     background-image: url(../images/wrestlingTrivia.png);
 }
 
+#wrestlingGIPHY {
+    background-image: url(../images/wrestlingGIFapp.png);
+}
+
 /* The animation code */
 @keyframes bouncingIcons {
     0% {width:50px;}
