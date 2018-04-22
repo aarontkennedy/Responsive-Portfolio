@@ -230,6 +230,10 @@ textarea {
     background-image: url(../images/wrestlingGIFapp.png);
 }
 
+#firebaseApp {
+    background-image: url(../images/firebaseApp.png);
+}
+
 /* The animation code */
 @keyframes bouncingIcons {
     0% {width:50px;}
