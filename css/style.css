@@ -234,6 +234,10 @@ textarea {
     background-image: url(../images/firebaseApp.png);
 }
 
+#rpsApp {
+    background-image: url(../images/rps.png);
+} 
+
 /* The animation code */
 @keyframes bouncingIcons {
     0% {width:50px;}
