@@ -238,6 +238,11 @@ textarea {
     background-image: url(../images/rps.png);
 } 
 
+#roadRoverApp {
+    background-image: url(../images/roadRover.png);
+} 
+
+
 /* The animation code */
 @keyframes bouncingIcons {
     0% {width:50px;}
