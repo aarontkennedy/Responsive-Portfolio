@@ -242,6 +242,10 @@ textarea {
     background-image: url(../images/roadRover.png);
 } 
 
+#nodeApp {
+    background-image: url(../images/node.png);
+} 
+
 
 /* The animation code */
 @keyframes bouncingIcons {
@@ -265,8 +269,6 @@ aside ul {
 aside ul li {
     display: inline-block;
 }
-
-
 
 @media only screen and (max-width: 768px)  {
     #bio-image {
