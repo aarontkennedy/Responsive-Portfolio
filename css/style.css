@@ -246,6 +246,10 @@ textarea {
     background-image: url(../images/node.png);
 } 
 
+#nodeHangman {
+    background-image: url(../images/nodeHangman.png);
+}
+
 
 /* The animation code */
 @keyframes bouncingIcons {
